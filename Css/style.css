@@ -17,6 +17,7 @@
    margin-top: 15px;
    margin-left: 25px;
    margin-right: 25px;
+   margin-bottom:60px;
 }
 .header1{
     
@@ -55,6 +56,7 @@
     color: rgb(33,97,89);
     font-size: 18px;
     font-weight: 400;
+    line-height: 24px;
 }
 .right a:hover{
     text-decoration: underline;
@@ -89,6 +91,7 @@ li:last-child{
     font-size: 18px;
     font-weight: 700;
     padding: 10px;
+    line-height: 24px;
 }
 .navlink{
     display:flex;
@@ -148,3 +151,110 @@ li:last-child{
 .search-bar i{
     color: white;
 }
+.main{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.m{
+    text-align: center;
+    padding: 10px;
+} 
+
+.m p{
+    font-Weight:400;
+    font-Size:20px;
+    Line-Height:24px;
+    Color:#064d44;
+    padding-bottom: 25px;
+}
+
+.m h1{
+    color:#3b4144;
+    font-size: 38px;
+    line-height: 24px;
+    font-weight: 400;  
+    padding: 10px;
+}
+.row-elements{
+    display: flex;
+    
+}
+.row h2{
+font-Weight:500;
+font-Size:28px;
+Line-Height:28px;
+Color:#064d44;
+}
+.imgs{
+   
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+ .listing{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0;
+ }
+ .row {
+    flex: 1;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  .row:hover img{
+    transform: scale(1.1); 
+  }
+  .row img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out; 
+    padding-bottom: 8px;
+  }
+  
+  .row:hover img {
+    transform: scale(1.2);
+  }
+  .row .element{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: .5rem;
+      margin-bottom: 8px;
+  } 
+  .row .element p{
+      padding: 5px;
+      line-height: 24px;
+      font-weight: 400;
+      
+  }
+  .row h5{
+      padding:8px;
+  }
+  
+ .box-container {
+    display: flex;
+    gap: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .row .element p i{
+      font-size: 19px;
+      color: #064d44;
+  }
+  .row .btn{
+      text-decoration: none;
+      background-color: rgb(33,97,89);
+      color: white;
+      border: none;
+      cursor: pointer;
+      padding: 8px 15px;
+      font-size: 18px;
+      line-height: 16px;
+      font-weight: 400;
+      border-radius: 5px;
+  }
